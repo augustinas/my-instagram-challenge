@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-feature 'comments' do
+feature 'Comments' do
   context 'user not signed in' do
     before do
-      thePost = Post.create(title: 'Funny', body: 'The most funny post in history')
-      thePost.comments.create(content: 'I cannot stop laughing')
+      post = Post.create(title: 'Funny', body: 'The most funny post in history')
+      post.comments.create(content: 'I cannot stop laughing')
     end
 
     scenario 'is able to view the most recent posts' do

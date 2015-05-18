@@ -19,6 +19,10 @@
         1,
         null
       ],
+      "/Users/Augis/Projects/instagram-challenge/app/helpers/likes_helper.rb": [
+        1,
+        null
+      ],
       "/Users/Augis/Projects/instagram-challenge/app/helpers/posts_helper.rb": [
         1,
         null
@@ -28,17 +32,23 @@
         1,
         null
       ],
+      "/Users/Augis/Projects/instagram-challenge/app/models/like.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/Augis/Projects/instagram-challenge/app/models/post.rb": [
         1,
         1,
         null,
+        1,
         1,
         null
       ],
       "/Users/Augis/Projects/instagram-challenge/app/controllers/posts_controller.rb": [
         1,
         1,
-        18,
+        22,
         null,
         null,
         1,
@@ -70,8 +80,17 @@
         1,
         null,
         null
+      ],
+      "/Users/Augis/Projects/instagram-challenge/app/controllers/likes_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1431643881
+    "timestamp": 1431939346
   }
 }

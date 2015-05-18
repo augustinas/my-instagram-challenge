@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'user management' do
+feature 'User management' do
   context 'user not signed in' do
     it 'should see "Sign in" and "Sign up" links' do
       visit '/'

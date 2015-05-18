@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'posts' do
+feature 'Posts' do
   context 'user not signed in' do
     before do
       Post.create(title: 'Funny', body: 'The most funny post in history')
